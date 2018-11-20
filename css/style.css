@@ -1,0 +1,296 @@
+@media screen and (max-width: 500px) {
+	* {
+		font-family: 'Roboto', sans-serif;
+		border: 0.5px solid black;
+		border: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		/*background: #5590b8;
+		*/
+		background: rgb(120, 153, 196);
+		color: white;
+		
+	}
+	html {
+
+		background-image: url("../images/code.png");
+	
+	}
+	body {
+		background-image: url("../images/code.png");
+		
+	}
+	#topMe {
+		display: flex;
+		flex-direction: row;
+	}
+	#picOfMe {
+		width: 50%;
+	}
+	#aboutMe {
+		margin: 1vmax;
+		width: 50%;
+		line-height: 3.5vmax;
+	}
+	#aboutMe h1{
+		line-height: 3.8vmax;
+	}
+	#telMail {
+		font-size: 3vmax;
+		display: flex;
+		flex-direction: row;
+	}
+	#tel {
+		text-align: center;
+		color: rgb(255, 255, 255);
+		line-height: 4vmax;
+		padding: 6px;
+		font-family: Georgia, serif;
+		font-weight: normal;
+		text-decoration: none;
+		font-style: normal;
+		font-variant: normal;
+		text-transform: none;
+		background-image: linear-gradient(rgb(116, 143, 178) 0%, rgb(70, 104, 152) 55%, rgb(101, 149, 216) 100%);
+		display: inline-block;
+		border: 0.5px solid rgb(65, 64, 64);
+	}
+	#mail {
+		text-align: center;
+		color: rgb(255, 255, 255);
+		line-height: 4vmax;
+		padding: 6px;
+		font-family: Georgia, serif;
+		font-weight: normal;
+		text-decoration: none;
+		font-style: normal;
+		font-variant: normal;
+		text-transform: none;
+		background-image: linear-gradient(rgb(116, 143, 178) 0%, rgb(70, 104, 152) 55%, rgb(101, 149, 216) 100%);
+		display: inline-block;
+		border: 0.5px solid rgb(65, 64, 64);
+	}
+	#bas {
+		
+		margin-top: 10vmax;
+		display: flex;
+		flex-direction: column;
+		font-size: 3vmax;
+		
+	}
+	button{
+		font-size: 20px;
+	}
+	.collapsible {
+		text-align: center;
+		font-size: 4vmax;
+		color: rgb(255, 255, 255);
+		line-height: 8vmax;
+		font-family: Georgia, serif;
+		font-weight: normal;
+		text-decoration: none;
+		font-style: normal;
+		font-variant: normal;
+		text-transform: none;
+		background-image: linear-gradient(rgb(116, 143, 178) 0%, rgb(70, 104, 152) 55%, rgb(101, 149, 216) 100%);
+		display: inline-block;
+		border: 0.2px solid white;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		outline: none;
+	}
+	.content {
+		max-width: 97%;
+		margin-left: 1vmax;
+		margin-right: 1vmax;
+		display: none;
+		overflow: auto;
+		background-color: #f1f1f1;
+	}
+	/*pour les expériences*/
+	.xp {
+		border-bottom: 3px dotted white;
+		/* border-left: 6px solid white;*/
+		
+	}
+	.xp p {
+		color: white;
+		display: inline;
+		
+		
+	}
+	.xp #ou {
+		color: blue;
+		display: inline;
+		
+	}
+	.xp ul {
+		list-style: square;
+		padding-left: 5%;
+		margin-right:5vmax;
+		hyphens: auto;
+		
+		
+	}
+	.xp a {
+		text-decoration: none;
+		color:blue;
+	}
+	.xp img {
+		max-width:3%; 
+		height:auto;
+	}
+	li em {
+		color: blue;
+	}
+	
+	
+	
+	#myBtn {
+		display: none;
+		position: fixed;
+		bottom: 2%;
+		left: 82%;
+		max-width: 0.01%;
+		z-index: 99;
+		
+	}
+	
+	.content ul	 {
+		list-style: square;
+		padding-left: 5%;
+		margin-right:5vmax;
+		hyphens: auto;
+		
+		
+	}
+	
+	.fa fa-arrow-circle-up{
+		font-size:48px;
+		color:red
+		
+	}
+	
+	
+	
+	
+	
+	
+}
+@media screen and (min-width: 501px) {
+	* {
+		font-family: 'Roboto', sans-serif;
+	}
+	body {
+
+		margin: 0;
+		padding: 0;
+	}
+
+	#topMe {
+		background-color: #406b8c;
+		display: flex;
+		flex-direction: column;
+		color: white;
+		width: 100%;
+		
+	}
+	#topMe h1{
+		margin-top: 3vmax;
+		width: 35%;
+		margin-bottom: 0;
+		margin-left: 3vmax;
+	}
+	#topMe h2{
+		width: 35%;
+		margin-top: 0;
+		margin-bottom: 2vmax;
+		margin-left: 3vmax;
+	}
+	hr {
+		display: block;
+		height: 2px;
+		border: 2;
+		background-color: blue;
+		border-top: 1px solid #ccc;
+		margin: 1em 0;
+		padding: 0;
+		max-width: 80%;
+	}
+	button {
+		border: none;
+		background-color: white;
+		color: blue;
+		
+	}
+	#bas {
+		display: flex;
+		flex-direction: row;
+		
+	}
+	#picOfMe {
+		display : none;
+	}
+	#aboutMe {
+		/* display: inline-block; */
+		width: 100 %;
+	
+	}
+
+	.collapsible {
+		font-size: 2em;
+		max-width: 90%;
+	}
+	.content {
+		max-width: 90%;
+	}
+	button .collapsible {
+		font-size: 1em;
+	}
+
+
+	.xp {
+		
+		
+	}
+	.xp .p {
+		display: flex;
+		color: black;
+		margin: 0;
+		padding: 0;
+		
+	}
+	.xp .strong {
+		
+	}
+	.xp #ou {
+		color: blue;
+		
+	}
+	.xp ul {
+		list-style: square;
+	}
+	.ul em {
+		color: blue;
+	}
+
+
+	#myBtn {
+		display: none;
+		position: fixed;
+		bottom: 2%;
+		left: 82%;
+		max-width: 0.01%;
+		z-index: 99;
+		
+	}
+
+	h6 {
+		margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+}    
